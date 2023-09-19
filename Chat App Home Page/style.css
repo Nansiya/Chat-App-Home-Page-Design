@@ -1,0 +1,753 @@
+.chat-app {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.chat-app .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 3508px;
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.chat-app .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 954px;
+    top: 0;
+    left: 0;
+    background-color: #1671ff;
+}
+
+.chat-app .text-wrapper {
+    position: absolute;
+    width: 492px;
+    top: 302px;
+    left: 135px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 75px;
+    letter-spacing: -0.36px;
+    line-height: 96.7px;
+}
+
+.chat-app .overlap-group {
+    position: absolute;
+    width: 168px;
+    height: 50px;
+    top: 640px;
+    left: 140px;
+    background-color: #ffffff;
+    border-radius: 180px;
+}
+
+.chat-app .text-wrapper-2 {
+    position: absolute;
+    top: 13px;
+    left: 43px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #1e71ff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21.6px;
+    white-space: nowrap;
+}
+
+.chat-app .div-wrapper {
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    top: 640px;
+    left: 338px;
+    border-radius: 180px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.chat-app .text-wrapper-3 {
+    position: absolute;
+    width: 95px;
+    top: 12px;
+    left: 36px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21.6px;
+}
+
+.chat-app .fast-easy-unlimited {
+    position: absolute;
+    top: 540px;
+    left: 138px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    white-space: nowrap;
+}
+
+.chat-app .overlap-2 {
+    position: absolute;
+    width: 595px;
+    height: 655px;
+    top: 173px;
+    left: 705px;
+}
+
+.chat-app .overlap-3 {
+    position: absolute;
+    width: 595px;
+    height: 655px;
+    top: 0;
+    left: 0;
+}
+
+.chat-app .group {
+    position: absolute;
+    width: 150px;
+    height: 168px;
+    top: 0;
+    left: 0;
+}
+
+.chat-app .img {
+    position: absolute;
+    width: 150px;
+    height: 168px;
+    top: 312px;
+    left: 224px;
+}
+
+.chat-app .guilherme {
+    position: absolute;
+    width: 259px;
+    height: 380px;
+    top: 275px;
+    left: 336px;
+    object-fit: cover;
+}
+
+.chat-app .andrea {
+    position: absolute;
+    width: 248px;
+    height: 372px;
+    top: 36px;
+    left: 31px;
+    object-fit: cover;
+}
+
+.chat-app .im-on-it-wrapper {
+    position: absolute;
+    width: 92px;
+    height: 37px;
+    top: 440px;
+    left: 30px;
+    background-image: url(./img/rectangle-8.png);
+    background-size: 100% 100%;
+}
+
+.chat-app .im-on-it {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    top: 12px;
+    left: 21px;
+}
+
+.chat-app .mask-group {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 440px;
+    left: 128px;
+}
+
+.chat-app .hi-darling-how-s-the-wrapper {
+    position: absolute;
+    width: 219px;
+    height: 37px;
+    top: 136px;
+    left: 376px;
+    background-image: url(./img/rectangle-7.png);
+    background-size: 100% 100%;
+}
+
+.chat-app .hi-darling-how-s-the {
+    position: absolute;
+    width: 195px;
+    height: 15px;
+    top: 12px;
+    left: 11px;
+}
+
+.chat-app .overlap-4 {
+    position: absolute;
+    width: 78px;
+    height: 37px;
+    top: 200px;
+    left: 376px;
+    background-image: url(./img/rectangle-9.png);
+    background-size: 100% 100%;
+}
+
+.chat-app .ellipse {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 13px;
+    left: 19px;
+}
+
+.chat-app .ellipse-2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 14px;
+    left: 36px;
+}
+
+.chat-app .ellipse-3 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 14px;
+    left: 51px;
+}
+
+.chat-app .mask-group-2 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 136px;
+    left: 324px;
+}
+
+.chat-app .chatapp {
+    top: 40px;
+    position: absolute;
+    width: 116px;
+    height: 26px;
+    left: 144px;
+}
+
+.chat-app .text-wrapper-4 {
+    position: absolute;
+    top: 39px;
+    left: 857px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.3px;
+    white-space: nowrap;
+}
+
+.chat-app .text-wrapper-5 {
+    position: absolute;
+    top: 39px;
+    left: 940px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.3px;
+    white-space: nowrap;
+}
+
+.chat-app .text-wrapper-6 {
+    position: absolute;
+    top: 39px;
+    left: 1028px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.3px;
+    white-space: nowrap;
+}
+
+.chat-app .text-wrapper-7 {
+    position: absolute;
+    top: 39px;
+    left: 1111px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.3px;
+    white-space: nowrap;
+}
+
+.chat-app .overlap-group-wrapper {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    top: 30px;
+    left: 1190px;
+}
+
+.chat-app .overlap-group-2 {
+    position: relative;
+    width: 110px;
+    height: 40px;
+    background-color: #ffffff66;
+    border-radius: 285px;
+}
+
+.chat-app .text-wrapper-8 {
+    top: 10px;
+    left: 21px;
+    color: #ffffffcc;
+    font-size: 15px;
+    line-height: 19.3px;
+    position: absolute;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.chat-app .text-wrapper-9 {
+    position: absolute;
+    width: 485px;
+    top: 1043px;
+    left: 477px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #28353e;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 58px;
+}
+
+.chat-app .overlap-5 {
+    position: absolute;
+    width: 1440px;
+    height: 848px;
+    top: 2177px;
+    left: 0;
+}
+
+.chat-app .p {
+    position: absolute;
+    width: 466px;
+    top: 168px;
+    left: 831px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #28353e;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: 58px;
+}
+
+.chat-app .text-wrapper-10 {
+    position: absolute;
+    width: 508px;
+    top: 315px;
+    left: 831px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 700;
+    color: #28353ee6;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 33.8px;
+}
+
+.chat-app .element-businesses-use {
+    position: absolute;
+    width: 258px;
+    top: 583px;
+    left: 1029px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .span {
+    font-weight: 500;
+}
+
+.chat-app .text-wrapper-11 {
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 848px;
+    top: 0;
+    left: 0;
+    background-color: #1571ff1a;
+}
+
+.chat-app .rectangle-2 {
+    position: absolute;
+    width: 168px;
+    height: 50px;
+    top: 404px;
+    left: 830px;
+    background-color: #1e71ff;
+    border-radius: 180px;
+}
+
+.chat-app .rectangle-3 {
+    position: absolute;
+    width: 169px;
+    height: 50px;
+    top: 404px;
+    left: 1028px;
+    border-radius: 180px;
+    border: 1px solid;
+    border-color: #1e71ff;
+}
+
+.chat-app .text-wrapper-12 {
+    top: 417px;
+    left: 873px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21.6px;
+    position: absolute;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.chat-app .text-wrapper-13 {
+    position: absolute;
+    width: 95px;
+    top: 417px;
+    left: 1065px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #1e71ff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21.6px;
+}
+
+.chat-app .group-2 {
+    position: absolute;
+    width: 164px;
+    height: 32px;
+    top: 584px;
+    left: 827px;
+}
+
+.chat-app .line {
+    position: absolute;
+    width: 160px;
+    height: 2px;
+    top: 542px;
+    left: 831px;
+}
+
+.chat-app .group-3 {
+    position: absolute;
+    width: 801px;
+    height: 644px;
+    top: 102px;
+    left: 9px;
+}
+
+.chat-app .text-wrapper-14 {
+    position: absolute;
+    width: 764px;
+    top: 1151px;
+    left: 338px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-15 {
+    position: absolute;
+    width: 236px;
+    top: 3180px;
+    left: 143px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 33.8px;
+}
+
+.chat-app .text-wrapper-16 {
+    position: absolute;
+    width: 152px;
+    top: 3182px;
+    left: 537px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-17 {
+    position: absolute;
+    width: 152px;
+    top: 3182px;
+    left: 734px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-18 {
+    position: absolute;
+    width: 152px;
+    top: 3182px;
+    left: 933px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-19 {
+    position: absolute;
+    width: 188px;
+    top: 3182px;
+    left: 1131px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-20 {
+    position: absolute;
+    width: 152px;
+    top: 3230px;
+    left: 537px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .IOS-android-apps {
+    position: absolute;
+    width: 199px;
+    top: 3230px;
+    left: 734px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-21 {
+    position: absolute;
+    width: 152px;
+    top: 3230px;
+    left: 933px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-22 {
+    position: absolute;
+    width: 152px;
+    top: 3230px;
+    left: 1131px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-23 {
+    position: absolute;
+    width: 152px;
+    top: 3278px;
+    left: 537px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-24 {
+    position: absolute;
+    width: 364px;
+    top: 3412px;
+    left: 143px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-25 {
+    position: absolute;
+    width: 152px;
+    top: 3278px;
+    left: 734px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-26 {
+    position: absolute;
+    width: 152px;
+    top: 3326px;
+    left: 734px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .text-wrapper-27 {
+    position: absolute;
+    width: 152px;
+    top: 3278px;
+    left: 933px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .element-deer-creek-rd {
+    position: absolute;
+    width: 188px;
+    top: 3278px;
+    left: 1131px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #28353ee6;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.chat-app .group-4 {
+    position: absolute;
+    width: 1100px;
+    height: 836px;
+    top: 1306px;
+    left: 170px;
+}
+
+.chat-app .chatapp-2 {
+    top: 3122px;
+    position: absolute;
+    width: 116px;
+    height: 26px;
+    left: 144px;
+}
+
+.chat-app .text-wrapper-28 {
+    position: absolute;
+    width: 57px;
+    top: 3116px;
+    left: 537px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--dark-color);
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 33.8px;
+}
+
+.chat-app .text-wrapper-29 {
+    position: absolute;
+    width: 125px;
+    top: 3116px;
+    left: 734px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--dark-color);
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 33.8px;
+}
+
+.chat-app .text-wrapper-30 {
+    position: absolute;
+    width: 100px;
+    top: 3116px;
+    left: 933px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--dark-color);
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 33.8px;
+}
+
+.chat-app .text-wrapper-31 {
+    position: absolute;
+    width: 132px;
+    top: 3116px;
+    left: 1131px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--dark-color);
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 33.8px;
+}
